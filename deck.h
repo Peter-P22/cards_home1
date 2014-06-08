@@ -6,7 +6,7 @@
 
 struct deck_t{
     int size;
-    struct card_t cards[30];
+    struct card_t cards[DECK_MAX];
 };
 
 int push_card(struct card_t card,struct deck_t *deck);
