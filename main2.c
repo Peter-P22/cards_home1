@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "deck.h"
+#include "card.h"
+
 char* card1_name = "Dragon";
 char* card2_name = "Sheep";
 
@@ -23,6 +25,7 @@ int main()
 
     draw_card(&deck,&card);
     printf("%s\n",deck.cards[deck.size - 1].name);
+
 
 
     return 0;
