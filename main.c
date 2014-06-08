@@ -1,3 +1,17 @@
+#include <stdio.h>
+#define CARD1_NAME "dragon"
+#define CARD2_NAME "sheep" 
+#include "card.c"
+
+int main () {
+    
+    struct card_t card1;
+    struct card_t card2;
+    
+    card1.name = CARD1_NAME;
+    card1.attack = 3;
+    card1.health = 3;
+
 card2.name = CARD2_NAME;
     card2.attack = 1;
     card2.health = 1;
